@@ -1,0 +1,178 @@
+entered daikon.chicory.Runtime.setDtrace(./Triangle.dtrac
+e.gz, false)...
+Chicory warning: ClassFile: org.junit.Assert - classfile
+ version (49) is out of date and may not be processed cor
+rectly.
+Chicory warning: ClassFile: org.junit.ComparisonFailure -
+ classfile version (49) is out of date and may not be pro
+cessed correctly.
+  Chicory warning: ClassFile: org.junit.internal.ArrayCompa
+risonFailure - classfile version (49) is out of date and
+ may not be processed correctly.
+Chicory warning: ClassFile: org.hamcrest.Matcher - classf
+ile version (49) is out of date and may not be processed
+ correctly.
+Chicory warning: ClassFile: org.hamcrest.SelfDescribing -
+ classfile version (49) is out of date and may not be pro
+cessed correctly.
+Daikon version 5.6.4, released April 3, 2018; http://pls
+e.cs.washington.edu/daikon.
+Reading declaration files Processing trace data; reading
+ 1 dtrace file:
+=========================================================
+==================
+org.junit.Assert.assertEquals(java.lang.Object, java.lan
+g.Object):::ENTER
+expected == actual
+expected.getClass().getName() == actual.getClass().getNam
+e()
+expected.getClass().getName() == triangle.Triangle$Type.c
+lass
+=========================================================
+==================
+org.junit.Assert.assertEquals(java.lang.Object, java.lan
+g.Object):::EXIT
+=========================================================
+==================
+org.junit.Assert.assertEquals(java.lang.String, java.lan
+g.Object, java.lang.Object):::ENTER
+expected == actual
+expected.getClass().getName() == actual.getClass().getNam
+e()
+message == null
+expected.getClass().getName() == triangle.Triangle$Type.c
+lass
+=========================================================
+==================
+org.junit.Assert.assertEquals(java.lang.String, java.lan
+g.Object, java.lang.Object):::EXIT112
+
+  =========================================================
+==================
+org.junit.Assert.assertEquals(java.lang.String, java.lan
+g.Object, java.lang.Object):::EXIT
+=========================================================
+==================
+org.junit.Assert.equalsRegardingNull(java.lang.Object, ja
+va.lang.Object):::ENTER
+expected == actual
+expected.getClass().getName() == actual.getClass().getNam
+e()
+expected.getClass().getName() == triangle.Triangle$Type.c
+lass
+=========================================================
+==================
+org.junit.Assert.equalsRegardingNull(java.lang.Object, ja
+va.lang.Object):::EXIT127
+=========================================================
+==================
+org.junit.Assert.equalsRegardingNull(java.lang.Object, ja
+va.lang.Object):::EXIT127;condition="return == true"
+=========================================================
+==================
+org.junit.Assert.equalsRegardingNull(java.lang.Object, ja
+va.lang.Object):::EXIT
+return == true
+=========================================================
+==================
+org.junit.Assert.equalsRegardingNull(java.lang.Object, ja
+va.lang.Object):::EXIT;condition="return == true"
+=========================================================
+==================
+org.junit.Assert.isEquals(java.lang.Object, java.lang.Obj
+ect):::ENTER
+expected == actual
+expected.getClass().getName() == actual.getClass().getNam
+e()
+expected.getClass().getName() == triangle.Triangle$Type.c
+lass
+=========================================================
+==================
+
+  org.junit.Assert.isEquals(java.lang.Object, java.lang.Obj
+ect):::EXIT
+return == true
+=========================================================
+==================
+org.junit.Assert.isEquals(java.lang.Object, java.lang.Obj
+ect):::EXIT;condition="return == true"
+=========================================================
+==================
+triangle.Triangle$Type:::OBJECT
+=========================================================
+==================
+triangle.Triangle$Type.Type(java.lang.String, int):::ENTE
+R
+=========================================================
+==================
+triangle.Triangle$Type.Type(java.lang.String, int):::EXIT
+$hidden$1.toString == orig($hidden$1.toString)
+=========================================================
+==================
+triangle.Triangle.classify(int, int, int):::ENTER
+=========================================================
+==================
+triangle.Triangle.classify(int, int, int):::EXIT21
+return == triangle.Triangle$Type.INVALID
+return has only one value
+orig(a) one of { 0, 1 }
+orig(b) one of { 0, 1, 1301 }
+orig(c) one of { -665, 0, 1 }
+=========================================================
+==================
+triangle.Triangle.classify(int, int, int):::EXIT31
+return == triangle.Triangle$Type.INVALID
+orig(b) == orig(c)
+return has only one value
+orig(a) == 1108
+orig(b) == 1
+=========================================================
+==================
+triangle.Triangle.classify(int, int, int):::EXIT35
+return == triangle.Triangle$Type.EQUILATERAL
+
+orig(a) == orig(b)
+orig(a) == orig(c)
+return has only one value
+orig(a) == 582
+=========================================================
+==================
+triangle.Triangle.classify(int, int, int):::EXIT
+triangle.Triangle$Type.INVALID has only one value
+triangle.Triangle$Type.SCALENE has only one value
+triangle.Triangle$Type.EQUILATERAL has only one value
+triangle.Triangle$Type.ISOSCELES has only one value
+triangle.Triangle$Type.$VALUES has only one value
+triangle.Triangle$Type.$VALUES.getClass().getName() == tr
+iangle.Triangle$Type[].class
+triangle.Triangle$Type.$VALUES[] contains no nulls and ha
+s only one value, of length 4
+triangle.Triangle$Type.$VALUES[].getClass().getName() ==
+ [triangle.Triangle.Type, triangle.Triangle.Type, triangl
+e.Triangle.Type, triangle.Triangle.Type]
+triangle.Triangle$Type.$VALUES[].getClass().getName() ele
+ments == triangle.Triangle.Type.class
+size(triangle.Triangle$Type.$VALUES[]) == 4
+return in triangle.Triangle$Type.$VALUES[]
+triangle.Triangle$Type.INVALID in triangle.Triangle$Type.
+$VALUES[]
+triangle.Triangle$Type.SCALENE in triangle.Triangle$Type.
+$VALUES[]
+triangle.Triangle$Type.EQUILATERAL in triangle.Triangle$T
+ype.$VALUES[]
+triangle.Triangle$Type.ISOSCELES in triangle.Triangle$Typ
+e.$VALUES[]
+=========================================================
+==================
+triangle.Triangle.main(java.lang.String[]):::ENTER
+args has only one value
+args.getClass().getName() == java.lang.String[].class
+args[] == []
+args[].toString == []
+=========================================================
+==================
+triangle.Triangle.main(java.lang.String[]):::EXIT
+args[] == orig(args[])
+args[] == []
+args[].toString == []
+Exiting Daikon.

@@ -1,0 +1,873 @@
+// Declaration file written by daikon.dcomp
+
+VarComparability
+implicit
+DECLARE
+triangle.Triangle:::CLASS
+
+DECLARE
+triangle.Triangle:::OBJECT
+this
+triangle.Triangle # isNonNull=true, isParam=true
+hashcode
+2
+
+
+DECLARE
+triangle.Triangle.Triangle():::ENTER
+
+DECLARE
+triangle.Triangle.Triangle():::EXIT4
+this
+triangle.Triangle # isNonNull=true, isParam=true
+hashcode
+2
+
+
+DECLARE
+triangle.Triangle.main(java.lang.String[]):::ENTER
+args
+java.lang.String[] # isParam=true
+hashcode
+2
+args.getClass().getName()
+java.lang.Class
+java.lang.String
+1
+args[..]
+java.lang.String[]
+hashcode[]
+3[5]
+args[..].toString
+java.lang.String[]
+java.lang.String[]
+4[6]
+
+DECLARE
+triangle.Triangle.main(java.lang.String[]):::EXIT16
+args
+java.lang.String[] # isParam=true
+hashcode
+2
+args.getClass().getName()
+java.lang.Class
+java.lang.String
+1
+args[..]
+java.lang.String[]
+hashcode[]
+3[5]
+args[..].toString
+java.lang.String[]
+java.lang.String[]
+4[6]
+
+
+DECLARE
+triangle.Triangle.classify(int, int, int):::ENTER
+a
+int # isParam=true
+int
+2
+b
+int # isParam=true
+int
+3
+c
+int # isParam=true
+int
+4
+
+DECLARE
+triangle.Triangle.classify(int, int, int):::EXIT21
+a
+int # isParam=true
+int
+2
+b
+int # isParam=true
+int
+3
+c
+int # isParam=true
+int
+4
+return
+triangle.Triangle$Type
+hashcode
+5
+triangle.Triangle$Type.INVALID
+triangle.Triangle$Type # declaringClassPackageName=triangle
+hashcode
+5
+triangle.Triangle$Type.SCALENE
+triangle.Triangle$Type # declaringClassPackageName=triangle
+hashcode
+5
+triangle.Triangle$Type.EQUILATERAL
+triangle.Triangle$Type # declaringClassPackageName=triangle
+hashcode
+5
+triangle.Triangle$Type.ISOSCELES
+triangle.Triangle$Type # declaringClassPackageName=triangle
+hashcode
+5
+triangle.Triangle$Type.$VALUES
+triangle.Triangle$Type[] # declaringClassPackageName=triangle
+hashcode
+6
+triangle.Triangle$Type.$VALUES.getClass().getName()
+java.lang.Class
+java.lang.String
+1
+triangle.Triangle$Type.$VALUES[..]
+triangle.Triangle$Type[]
+hashcode[]
+5[7]
+triangle.Triangle$Type.$VALUES[..].getClass().getName()
+java.lang.Class[]
+java.lang.String[]
+1[8]
+
+DECLARE
+triangle.Triangle.classify(int, int, int):::EXIT31
+a
+int # isParam=true
+int
+2
+b
+int # isParam=true
+int
+3
+c
+int # isParam=true
+int
+4
+return
+triangle.Triangle$Type
+hashcode
+5
+triangle.Triangle$Type.INVALID
+triangle.Triangle$Type # declaringClassPackageName=triangle
+hashcode
+5
+triangle.Triangle$Type.SCALENE
+triangle.Triangle$Type # declaringClassPackageName=triangle
+hashcode
+5
+triangle.Triangle$Type.EQUILATERAL
+triangle.Triangle$Type # declaringClassPackageName=triangle
+hashcode
+5
+triangle.Triangle$Type.ISOSCELES
+triangle.Triangle$Type # declaringClassPackageName=triangle
+hashcode
+5
+triangle.Triangle$Type.$VALUES
+triangle.Triangle$Type[] # declaringClassPackageName=triangle
+hashcode
+6
+triangle.Triangle$Type.$VALUES.getClass().getName()
+java.lang.Class
+java.lang.String
+1
+triangle.Triangle$Type.$VALUES[..]
+triangle.Triangle$Type[]
+hashcode[]
+5[7]
+triangle.Triangle$Type.$VALUES[..].getClass().getName()
+java.lang.Class[]
+java.lang.String[]
+1[8]
+
+DECLARE
+triangle.Triangle.classify(int, int, int):::EXIT33
+a
+int # isParam=true
+int
+2
+b
+int # isParam=true
+int
+3
+c
+int # isParam=true
+int
+4
+return
+triangle.Triangle$Type
+hashcode
+5
+triangle.Triangle$Type.INVALID
+triangle.Triangle$Type # declaringClassPackageName=triangle
+hashcode
+5
+triangle.Triangle$Type.SCALENE
+triangle.Triangle$Type # declaringClassPackageName=triangle
+hashcode
+5
+triangle.Triangle$Type.EQUILATERAL
+triangle.Triangle$Type # declaringClassPackageName=triangle
+hashcode
+5
+triangle.Triangle$Type.ISOSCELES
+triangle.Triangle$Type # declaringClassPackageName=triangle
+hashcode
+5
+triangle.Triangle$Type.$VALUES
+triangle.Triangle$Type[] # declaringClassPackageName=triangle
+hashcode
+6
+triangle.Triangle$Type.$VALUES.getClass().getName()
+java.lang.Class
+java.lang.String
+1
+triangle.Triangle$Type.$VALUES[..]
+triangle.Triangle$Type[]
+hashcode[]
+5[7]
+triangle.Triangle$Type.$VALUES[..].getClass().getName()
+java.lang.Class[]
+java.lang.String[]
+1[8]
+
+DECLARE
+triangle.Triangle.classify(int, int, int):::EXIT35
+a
+int # isParam=true
+int
+2
+b
+int # isParam=true
+int
+3
+c
+int # isParam=true
+int
+4
+return
+triangle.Triangle$Type
+hashcode
+5
+triangle.Triangle$Type.INVALID
+triangle.Triangle$Type # declaringClassPackageName=triangle
+hashcode
+5
+triangle.Triangle$Type.SCALENE
+triangle.Triangle$Type # declaringClassPackageName=triangle
+hashcode
+5
+triangle.Triangle$Type.EQUILATERAL
+triangle.Triangle$Type # declaringClassPackageName=triangle
+hashcode
+5
+triangle.Triangle$Type.ISOSCELES
+triangle.Triangle$Type # declaringClassPackageName=triangle
+hashcode
+5
+triangle.Triangle$Type.$VALUES
+triangle.Triangle$Type[] # declaringClassPackageName=triangle
+hashcode
+6
+triangle.Triangle$Type.$VALUES.getClass().getName()
+java.lang.Class
+java.lang.String
+1
+triangle.Triangle$Type.$VALUES[..]
+triangle.Triangle$Type[]
+hashcode[]
+5[7]
+triangle.Triangle$Type.$VALUES[..].getClass().getName()
+java.lang.Class[]
+java.lang.String[]
+1[8]
+
+DECLARE
+triangle.Triangle.classify(int, int, int):::EXIT37
+a
+int # isParam=true
+int
+2
+b
+int # isParam=true
+int
+3
+c
+int # isParam=true
+int
+4
+return
+triangle.Triangle$Type
+hashcode
+5
+triangle.Triangle$Type.INVALID
+triangle.Triangle$Type # declaringClassPackageName=triangle
+hashcode
+5
+triangle.Triangle$Type.SCALENE
+triangle.Triangle$Type # declaringClassPackageName=triangle
+hashcode
+5
+triangle.Triangle$Type.EQUILATERAL
+triangle.Triangle$Type # declaringClassPackageName=triangle
+hashcode
+5
+triangle.Triangle$Type.ISOSCELES
+triangle.Triangle$Type # declaringClassPackageName=triangle
+hashcode
+5
+triangle.Triangle$Type.$VALUES
+triangle.Triangle$Type[] # declaringClassPackageName=triangle
+hashcode
+6
+triangle.Triangle$Type.$VALUES.getClass().getName()
+java.lang.Class
+java.lang.String
+1
+triangle.Triangle$Type.$VALUES[..]
+triangle.Triangle$Type[]
+hashcode[]
+5[7]
+triangle.Triangle$Type.$VALUES[..].getClass().getName()
+java.lang.Class[]
+java.lang.String[]
+1[8]
+
+DECLARE
+triangle.Triangle.classify(int, int, int):::EXIT39
+a
+int # isParam=true
+int
+2
+b
+int # isParam=true
+int
+3
+c
+int # isParam=true
+int
+4
+return
+triangle.Triangle$Type
+hashcode
+5
+triangle.Triangle$Type.INVALID
+triangle.Triangle$Type # declaringClassPackageName=triangle
+hashcode
+5
+triangle.Triangle$Type.SCALENE
+triangle.Triangle$Type # declaringClassPackageName=triangle
+hashcode
+5
+triangle.Triangle$Type.EQUILATERAL
+triangle.Triangle$Type # declaringClassPackageName=triangle
+hashcode
+5
+triangle.Triangle$Type.ISOSCELES
+triangle.Triangle$Type # declaringClassPackageName=triangle
+hashcode
+5
+triangle.Triangle$Type.$VALUES
+triangle.Triangle$Type[] # declaringClassPackageName=triangle
+hashcode
+6
+triangle.Triangle$Type.$VALUES.getClass().getName()
+java.lang.Class
+java.lang.String
+1
+triangle.Triangle$Type.$VALUES[..]
+triangle.Triangle$Type[]
+hashcode[]
+5[7]
+triangle.Triangle$Type.$VALUES[..].getClass().getName()
+java.lang.Class[]
+java.lang.String[]
+1[8]
+
+DECLARE
+triangle.Triangle.classify(int, int, int):::EXIT41
+a
+int # isParam=true
+int
+2
+b
+int # isParam=true
+int
+3
+c
+int # isParam=true
+int
+4
+return
+triangle.Triangle$Type
+hashcode
+5
+triangle.Triangle$Type.INVALID
+triangle.Triangle$Type # declaringClassPackageName=triangle
+hashcode
+5
+triangle.Triangle$Type.SCALENE
+triangle.Triangle$Type # declaringClassPackageName=triangle
+hashcode
+5
+triangle.Triangle$Type.EQUILATERAL
+triangle.Triangle$Type # declaringClassPackageName=triangle
+hashcode
+5
+triangle.Triangle$Type.ISOSCELES
+triangle.Triangle$Type # declaringClassPackageName=triangle
+hashcode
+5
+triangle.Triangle$Type.$VALUES
+triangle.Triangle$Type[] # declaringClassPackageName=triangle
+hashcode
+6
+triangle.Triangle$Type.$VALUES.getClass().getName()
+java.lang.Class
+java.lang.String
+1
+triangle.Triangle$Type.$VALUES[..]
+triangle.Triangle$Type[]
+hashcode[]
+5[7]
+triangle.Triangle$Type.$VALUES[..].getClass().getName()
+java.lang.Class[]
+java.lang.String[]
+1[8]
+
+DECLARE
+triangle.Triangle.classify(int, int, int):::EXIT42
+a
+int # isParam=true
+int
+2
+b
+int # isParam=true
+int
+3
+c
+int # isParam=true
+int
+4
+return
+triangle.Triangle$Type
+hashcode
+5
+triangle.Triangle$Type.INVALID
+triangle.Triangle$Type # declaringClassPackageName=triangle
+hashcode
+5
+triangle.Triangle$Type.SCALENE
+triangle.Triangle$Type # declaringClassPackageName=triangle
+hashcode
+5
+triangle.Triangle$Type.EQUILATERAL
+triangle.Triangle$Type # declaringClassPackageName=triangle
+hashcode
+5
+triangle.Triangle$Type.ISOSCELES
+triangle.Triangle$Type # declaringClassPackageName=triangle
+hashcode
+5
+triangle.Triangle$Type.$VALUES
+triangle.Triangle$Type[] # declaringClassPackageName=triangle
+hashcode
+6
+triangle.Triangle$Type.$VALUES.getClass().getName()
+java.lang.Class
+java.lang.String
+1
+triangle.Triangle$Type.$VALUES[..]
+triangle.Triangle$Type[]
+hashcode[]
+5[7]
+triangle.Triangle$Type.$VALUES[..].getClass().getName()
+java.lang.Class[]
+java.lang.String[]
+1[8]
+
+
+DECLARE
+triangle.Triangle.equals(java.lang.Object):::ENTER
+this
+triangle.Triangle # isNonNull=true, isParam=true
+hashcode
+3
+obj
+java.lang.Object # isParam=true
+hashcode
+2
+obj.getClass().getName()
+java.lang.Class
+java.lang.String
+1
+
+DECLARE
+triangle.Triangle.equals(java.lang.Object):::EXIT1
+this
+triangle.Triangle # isNonNull=true, isParam=true
+hashcode
+4
+obj
+java.lang.Object # isParam=true
+hashcode
+2
+obj.getClass().getName()
+java.lang.Class
+java.lang.String
+1
+return
+boolean
+boolean
+3
+
+
+DECLARE
+triangle.Triangle.equals_dcomp_instrumented(java.lang.Object):::ENTER
+this
+triangle.Triangle # isNonNull=true, isParam=true
+hashcode
+3
+obj
+java.lang.Object # isParam=true
+hashcode
+2
+obj.getClass().getName()
+java.lang.Class
+java.lang.String
+1
+
+DECLARE
+triangle.Triangle.equals_dcomp_instrumented(java.lang.Object):::EXIT1
+this
+triangle.Triangle # isNonNull=true, isParam=true
+hashcode
+4
+obj
+java.lang.Object # isParam=true
+hashcode
+2
+obj.getClass().getName()
+java.lang.Class
+java.lang.String
+1
+return
+boolean
+boolean
+3
+
+DECLARE
+triangle.Triangle$Type:::CLASS
+triangle.Triangle$Type.INVALID
+triangle.Triangle$Type # declaringClassPackageName=triangle
+hashcode
+5
+triangle.Triangle$Type.SCALENE
+triangle.Triangle$Type # declaringClassPackageName=triangle
+hashcode
+7
+triangle.Triangle$Type.EQUILATERAL
+triangle.Triangle$Type # declaringClassPackageName=triangle
+hashcode
+4
+triangle.Triangle$Type.ISOSCELES
+triangle.Triangle$Type # declaringClassPackageName=triangle
+hashcode
+6
+triangle.Triangle$Type.$VALUES
+triangle.Triangle$Type[] # declaringClassPackageName=triangle
+hashcode
+2
+triangle.Triangle$Type.$VALUES.getClass().getName()
+java.lang.Class
+java.lang.String
+1
+triangle.Triangle$Type.$VALUES[..]
+triangle.Triangle$Type[]
+hashcode[]
+3[8]
+triangle.Triangle$Type.$VALUES[..].getClass().getName()
+java.lang.Class[]
+java.lang.String[]
+1[9]
+
+DECLARE
+triangle.Triangle$Type:::OBJECT
+this
+triangle.Triangle$Type # isNonNull=true, isParam=true
+hashcode
+2
+triangle.Triangle$Type.INVALID
+triangle.Triangle$Type # declaringClassPackageName=triangle
+hashcode
+6
+triangle.Triangle$Type.SCALENE
+triangle.Triangle$Type # declaringClassPackageName=triangle
+hashcode
+8
+triangle.Triangle$Type.EQUILATERAL
+triangle.Triangle$Type # declaringClassPackageName=triangle
+hashcode
+5
+triangle.Triangle$Type.ISOSCELES
+triangle.Triangle$Type # declaringClassPackageName=triangle
+hashcode
+7
+triangle.Triangle$Type.$VALUES
+triangle.Triangle$Type[] # declaringClassPackageName=triangle
+hashcode
+3
+triangle.Triangle$Type.$VALUES.getClass().getName()
+java.lang.Class
+java.lang.String
+1
+triangle.Triangle$Type.$VALUES[..]
+triangle.Triangle$Type[]
+hashcode[]
+4[9]
+triangle.Triangle$Type.$VALUES[..].getClass().getName()
+java.lang.Class[]
+java.lang.String[]
+1[10]
+
+
+DECLARE
+triangle.Triangle$Type.values():::ENTER
+triangle.Triangle$Type.INVALID
+triangle.Triangle$Type # declaringClassPackageName=triangle
+hashcode
+5
+triangle.Triangle$Type.SCALENE
+triangle.Triangle$Type # declaringClassPackageName=triangle
+hashcode
+7
+triangle.Triangle$Type.EQUILATERAL
+triangle.Triangle$Type # declaringClassPackageName=triangle
+hashcode
+4
+triangle.Triangle$Type.ISOSCELES
+triangle.Triangle$Type # declaringClassPackageName=triangle
+hashcode
+6
+triangle.Triangle$Type.$VALUES
+triangle.Triangle$Type[] # declaringClassPackageName=triangle
+hashcode
+2
+triangle.Triangle$Type.$VALUES.getClass().getName()
+java.lang.Class
+java.lang.String
+1
+triangle.Triangle$Type.$VALUES[..]
+triangle.Triangle$Type[]
+hashcode[]
+3[8]
+triangle.Triangle$Type.$VALUES[..].getClass().getName()
+java.lang.Class[]
+java.lang.String[]
+1[9]
+
+DECLARE
+triangle.Triangle$Type.values():::EXIT6
+triangle.Triangle$Type.INVALID
+triangle.Triangle$Type # declaringClassPackageName=triangle
+hashcode
+7
+triangle.Triangle$Type.SCALENE
+triangle.Triangle$Type # declaringClassPackageName=triangle
+hashcode
+9
+triangle.Triangle$Type.EQUILATERAL
+triangle.Triangle$Type # declaringClassPackageName=triangle
+hashcode
+6
+triangle.Triangle$Type.ISOSCELES
+triangle.Triangle$Type # declaringClassPackageName=triangle
+hashcode
+8
+triangle.Triangle$Type.$VALUES
+triangle.Triangle$Type[] # declaringClassPackageName=triangle
+hashcode
+4
+triangle.Triangle$Type.$VALUES.getClass().getName()
+java.lang.Class
+java.lang.String
+1
+triangle.Triangle$Type.$VALUES[..]
+triangle.Triangle$Type[]
+hashcode[]
+5[10]
+triangle.Triangle$Type.$VALUES[..].getClass().getName()
+java.lang.Class[]
+java.lang.String[]
+1[11]
+return
+triangle.Triangle$Type[]
+hashcode
+2
+return.getClass().getName()
+java.lang.Class
+java.lang.String
+1
+return[..]
+triangle.Triangle$Type[]
+hashcode[]
+3[12]
+
+
+DECLARE
+triangle.Triangle$Type.valueOf(java.lang.String):::ENTER
+triangle.Triangle$Type.INVALID
+triangle.Triangle$Type # declaringClassPackageName=triangle
+hashcode
+7
+triangle.Triangle$Type.SCALENE
+triangle.Triangle$Type # declaringClassPackageName=triangle
+hashcode
+9
+triangle.Triangle$Type.EQUILATERAL
+triangle.Triangle$Type # declaringClassPackageName=triangle
+hashcode
+6
+triangle.Triangle$Type.ISOSCELES
+triangle.Triangle$Type # declaringClassPackageName=triangle
+hashcode
+8
+triangle.Triangle$Type.$VALUES
+triangle.Triangle$Type[] # declaringClassPackageName=triangle
+hashcode
+4
+triangle.Triangle$Type.$VALUES.getClass().getName()
+java.lang.Class
+java.lang.String
+1
+triangle.Triangle$Type.$VALUES[..]
+triangle.Triangle$Type[]
+hashcode[]
+5[10]
+triangle.Triangle$Type.$VALUES[..].getClass().getName()
+java.lang.Class[]
+java.lang.String[]
+1[11]
+name
+java.lang.String # isParam=true
+hashcode
+2
+name.toString
+java.lang.String
+java.lang.String
+3
+
+DECLARE
+triangle.Triangle$Type.valueOf(java.lang.String):::EXIT6
+triangle.Triangle$Type.INVALID
+triangle.Triangle$Type # declaringClassPackageName=triangle
+hashcode
+8
+triangle.Triangle$Type.SCALENE
+triangle.Triangle$Type # declaringClassPackageName=triangle
+hashcode
+10
+triangle.Triangle$Type.EQUILATERAL
+triangle.Triangle$Type # declaringClassPackageName=triangle
+hashcode
+7
+triangle.Triangle$Type.ISOSCELES
+triangle.Triangle$Type # declaringClassPackageName=triangle
+hashcode
+9
+triangle.Triangle$Type.$VALUES
+triangle.Triangle$Type[] # declaringClassPackageName=triangle
+hashcode
+5
+triangle.Triangle$Type.$VALUES.getClass().getName()
+java.lang.Class
+java.lang.String
+1
+triangle.Triangle$Type.$VALUES[..]
+triangle.Triangle$Type[]
+hashcode[]
+6[11]
+triangle.Triangle$Type.$VALUES[..].getClass().getName()
+java.lang.Class[]
+java.lang.String[]
+1[12]
+name
+java.lang.String # isParam=true
+hashcode
+2
+name.toString
+java.lang.String
+java.lang.String
+3
+return
+triangle.Triangle$Type
+hashcode
+4
+
+
+DECLARE
+triangle.Triangle$Type.Type(java.lang.String, int):::ENTER
+$hidden$1
+java.lang.String # isParam=true
+hashcode
+2
+$hidden$1.toString
+java.lang.String
+java.lang.String
+3
+$hidden$2
+int # isParam=true
+int
+4
+
+DECLARE
+triangle.Triangle$Type.Type(java.lang.String, int):::EXIT6
+this
+triangle.Triangle$Type # isNonNull=true, isParam=true
+hashcode
+5
+triangle.Triangle$Type.INVALID
+triangle.Triangle$Type # declaringClassPackageName=triangle
+hashcode
+9
+triangle.Triangle$Type.SCALENE
+triangle.Triangle$Type # declaringClassPackageName=triangle
+hashcode
+11
+triangle.Triangle$Type.EQUILATERAL
+triangle.Triangle$Type # declaringClassPackageName=triangle
+hashcode
+8
+triangle.Triangle$Type.ISOSCELES
+triangle.Triangle$Type # declaringClassPackageName=triangle
+hashcode
+10
+triangle.Triangle$Type.$VALUES
+triangle.Triangle$Type[] # declaringClassPackageName=triangle
+hashcode
+6
+triangle.Triangle$Type.$VALUES.getClass().getName()
+java.lang.Class
+java.lang.String
+1
+triangle.Triangle$Type.$VALUES[..]
+triangle.Triangle$Type[]
+hashcode[]
+7[12]
+triangle.Triangle$Type.$VALUES[..].getClass().getName()
+java.lang.Class[]
+java.lang.String[]
+1[13]
+$hidden$1
+java.lang.String # isParam=true
+hashcode
+2
+$hidden$1.toString
+java.lang.String
+java.lang.String
+3
+$hidden$2
+int # isParam=true
+int
+4
+

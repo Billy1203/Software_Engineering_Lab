@@ -1,0 +1,183 @@
+Last login: Sun May 27 23:42:27 on ttys000
+➜  ~ cd Desktop/软件工程/Lab/Lab_git 
+➜  Lab_git git init
+Initialized empty Git repository in /Users/xueyiheng/Desktop/软件工程/Lab/Lab_git/.git/
+➜  Lab_git git:(master) ✗ vi 1.txt
+➜  Lab_git git:(master) ✗ git add 1.txt 
+➜  Lab_git git:(master) ✗ git commit -m "add 1.txt"
+[master (root-commit) a50274e] add 1.txt
+ 1 file changed, 3 insertions(+)
+ create mode 100644 1.txt
+➜  Lab_git git:(master) ✗ vi 2.txt
+➜  Lab_git git:(master) ✗ git add 2.txt
+➜  Lab_git git:(master) ✗ git state
+git: 'state' is not a git command. See 'git --help'.
+
+The most similar command is
+	stage
+➜  Lab_git git:(master) ✗ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   2.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	.DS_Store
+
+➜  Lab_git git:(master) ✗ git commit -m "add 2.txt, there is no difference with 1"
+[master c2d4eb2] add 2.txt, there is no difference with 1
+ 1 file changed, 3 insertions(+)
+ create mode 100644 2.txt
+➜  Lab_git git:(master) ✗ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	.DS_Store
+
+nothing added to commit but untracked files present (use "git add" to track)
+➜  Lab_git git:(master) ✗ vi 3.txt
+➜  Lab_git git:(master) ✗ git checkout -b up
+Switched to a new branch 'up'
+➜  Lab_git git:(up) ✗ git add 3.txt
+➜  Lab_git git:(up) ✗ vi 4.txt
+➜  Lab_git git:(up) ✗ git status   
+On branch up
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   3.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	.DS_Store
+	4.txt
+
+➜  Lab_git git:(up) ✗ git commit -m "add 3.txt"
+[up 3a10599] add 3.txt
+ 1 file changed, 3 insertions(+)
+ create mode 100644 3.txt
+➜  Lab_git git:(up) ✗ git add 4.txt
+➜  Lab_git git:(up) ✗ git commit -m "add 4.txt, add the last line"
+[up 42952ff] add 4.txt, add the last line
+ 1 file changed, 3 insertions(+)
+ create mode 100644 4.txt
+➜  Lab_git git:(up) ✗ git status
+On branch up
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	.DS_Store
+
+nothing added to commit but untracked files present (use "git add" to track)
+➜  Lab_git git:(up) ✗ git branch master 
+fatal: A branch named 'master' already exists.
+➜  Lab_git git:(up) ✗ git checkout master 
+Switched to branch 'master'
+➜  Lab_git git:(master) ✗ vi 5.txt
+➜  Lab_git git:(master) ✗ git add 5.txt 
+➜  Lab_git git:(master) ✗ git commit -m "add 5.txt"
+[master 157e855] add 5.txt
+ 1 file changed, 3 insertions(+)
+ create mode 100644 5.txt
+➜  Lab_git git:(master) ✗ git checkout -b down
+Switched to a new branch 'down'
+➜  Lab_git git:(down) ✗ vi 6.txt
+➜  Lab_git git:(down) ✗ git add 6.txt
+➜  Lab_git git:(down) ✗ git commit -m "add CG course and add 6.txt"
+[down 2978f0b] add CG course and add 6.txt
+ 1 file changed, 3 insertions(+)
+ create mode 100644 6.txt
+➜  Lab_git git:(down) ✗ vi 7.txt
+➜  Lab_git git:(down) ✗ git checkout master
+Switched to branch 'master'
+➜  Lab_git git:(master) ✗ git merge up
+Merge made by the 'recursive' strategy.
+ 3.txt | 3 +++
+ 4.txt | 3 +++
+ 2 files changed, 6 insertions(+)
+ create mode 100644 3.txt
+ create mode 100644 4.txt
+➜  Lab_git git:(master) ✗ git merge down
+Merge made by the 'recursive' strategy.
+ 6.txt | 3 +++
+ 1 file changed, 3 insertions(+)
+ create mode 100644 6.txt
+➜  Lab_git git:(master) ✗ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	.DS_Store
+	7.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+➜  Lab_git git:(master) ✗ git add 7.txt
+➜  Lab_git git:(master) ✗ git commit -m "add 7.txt"
+[master 2cbb109] add 7.txt
+ 1 file changed, 3 insertions(+)
+ create mode 100644 7.txt
+➜  Lab_git git:(master) ✗ rm 7.txt 
+➜  Lab_git git:(master) ✗ git add 7.txt
+➜  Lab_git git:(master) ✗ rm 7.txt
+rm: 7.txt: No such file or directory
+➜  Lab_git git:(master) ✗ git checkout down
+Switched to branch 'down'
+➜  Lab_git git:(down) ✗ vi 7.txt
+➜  Lab_git git:(down) ✗ git add 7.txt
+➜  Lab_git git:(down) ✗ git commit -m "add 7.txt"
+[down d9bcf3a] add 7.txt
+ 1 file changed, 3 insertions(+)
+ create mode 100644 7.txt
+➜  Lab_git git:(down) ✗ git checkout master
+Switched to branch 'master'
+➜  Lab_git git:(master) ✗ git merge down
+Auto-merging 7.txt
+CONFLICT (add/add): Merge conflict in 7.txt
+Automatic merge failed; fix conflicts and then commit the result.
+➜  Lab_git git:(master) ✗ git log
+➜  Lab_git git:(master) ✗ gir merge down
+zsh: command not found: gir
+➜  Lab_git git:(master) ✗ git merge down
+error: Merging is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: Exiting because of an unresolved conflict.
+➜  Lab_git git:(master) ✗ git status
+On branch master
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+  (use "git merge --abort" to abort the merge)
+
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+
+	both added:      7.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	.DS_Store
+
+no changes added to commit (use "git add" and/or "git commit -a")
+➜  Lab_git git:(master) ✗ git add 7.txt
+➜  Lab_git git:(master) ✗ git commit -m "add 7.txt again"
+[master c558b26] add 7.txt again
+➜  Lab_git git:(master) ✗ git merge down
+Already up to date.
+➜  Lab_git git:(master) ✗ git log
+➜  Lab_git git:(master) ✗ git log all
+fatal: ambiguous argument 'all': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+➜  Lab_git git:(master) ✗ git log graph
+fatal: ambiguous argument 'graph': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+➜  Lab_git git:(master) ✗ git log --all
+➜  Lab_git git:(master) ✗ git log --graph
+➜  Lab_git git:(master) ✗ 

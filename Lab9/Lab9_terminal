@@ -1,0 +1,271 @@
+Last login: Fri May 18 20:57:19 on ttys001
+➜  ~ gradle -version
+
+------------------------------------------------------------
+Gradle 4.7
+------------------------------------------------------------
+
+Build time:   2018-04-18 09:09:12 UTC
+Revision:     b9a962bf70638332300e7f810689cb2febbd4a6c
+
+Groovy:       2.4.12
+Ant:          Apache Ant(TM) version 1.9.9 compiled on February 2 2017
+JVM:          1.8.0_131 (Oracle Corporation 25.131-b11)
+OS:           Mac OS X 10.13.4 x86_64
+
+➜  ~ jacoco -version
+zsh: command not found: jacoco
+➜  ~ jacoco
+zsh: command not found: jacoco
+➜  ~ java
+用法: java [-options] class [args...]
+           (执行类)
+   或  java [-options] -jar jarfile [args...]
+           (执行 jar 文件)
+其中选项包括:
+    -d32	  使用 32 位数据模型 (如果可用)
+    -d64	  使用 64 位数据模型 (如果可用)
+    -server	  选择 "server" VM
+                  默认 VM 是 server,
+                  因为您是在服务器类计算机上运行。
+
+
+    -cp <目录和 zip/jar 文件的类搜索路径>
+    -classpath <目录和 zip/jar 文件的类搜索路径>
+                  用 : 分隔的目录, JAR 档案
+                  和 ZIP 档案列表, 用于搜索类文件。
+    -D<名称>=<值>
+                  设置系统属性
+    -verbose:[class|gc|jni]
+                  启用详细输出
+    -version      输出产品版本并退出
+    -version:<值>
+                  警告: 此功能已过时, 将在
+                  未来发行版中删除。
+                  需要指定的版本才能运行
+    -showversion  输出产品版本并继续
+    -jre-restrict-search | -no-jre-restrict-search
+                  警告: 此功能已过时, 将在
+                  未来发行版中删除。
+                  在版本搜索中包括/排除用户专用 JRE
+    -? -help      输出此帮助消息
+    -X            输出非标准选项的帮助
+    -ea[:<packagename>...|:<classname>]
+    -enableassertions[:<packagename>...|:<classname>]
+                  按指定的粒度启用断言
+    -da[:<packagename>...|:<classname>]
+    -disableassertions[:<packagename>...|:<classname>]
+                  禁用具有指定粒度的断言
+    -esa | -enablesystemassertions
+                  启用系统断言
+    -dsa | -disablesystemassertions
+                  禁用系统断言
+    -agentlib:<libname>[=<选项>]
+                  加载本机代理库 <libname>, 例如 -agentlib:hprof
+                  另请参阅 -agentlib:jdwp=help 和 -agentlib:hprof=help
+    -agentpath:<pathname>[=<选项>]
+                  按完整路径名加载本机代理库
+    -javaagent:<jarpath>[=<选项>]
+                  加载 Java 编程语言代理, 请参阅 java.lang.instrument
+    -splash:<imagepath>
+                  使用指定的图像显示启动屏幕
+有关详细信息, 请参阅 http://www.oracle.com/technetwork/java/javase/documentation/index.html。
+➜  ~ javap -c
+错误: 未指定类
+➜  ~ ls
+AndroidStudioProjects Music                 daikon-5.6.4
+Applications          New Unity Project     eclipse-workspace
+Desktop               Pictures              fault-localization
+Documents             Public                gs-gradle
+Downloads             PycharmProjects       tensorflow
+Library               WebstormProjects
+Movies                ca-bundle.crt
+➜  ~ cd Desktop 
+➜  Desktop ls
+20171221南科大基建办图片
+20180428深圳设计周
+2018环14班毕业纪录片方案.pdf
+AR
+C8532A1FFC6C82051D5492491957D4B0.jpg
+DSC00007.JPG
+Java_exercise
+LoginUI
+Python_exercise
+pro
+善营Logo.png
+无人机
+无人驾驶
+软件工程
+画稿线图.psd
+图片总文档
+智能机器人
+善营宣传片.m4v
+未命名文件夹
+薛毅恒的文件
+计算机图形学
+未命名文件夹 2
+关于薛毅恒于2018年4月13日《计算机前沿讲座》代签情况说明.pages
+关于薛毅恒于2018年4月13日《计算机前沿讲座》代签情况说明.pdf
+想上不想上的课
+善营宣传片预览3.m4v
+材料系工厂宣传片
+善营宣传片预览版4.m4v
+影视拍摄与编辑基础
+视频宣传片更改要求.docx
+乱七八糟赶快整理🤡🤡
+➜  Desktop cd 软件工程 
+➜  软件工程 ls
+Lab
+Lecture+1-Overview.pptx
+Lecture+2-4+Requirement+Engineering+a.pptx
+Lecture+2-Requirement+Engineering+a.pptx
+Lecture+5-Software+Architecture.pptx
+Project
+Screen Shot 2018-03-18 at 1.51.26 PM.png
+junit-4.10.jar
+➜  软件工程 cd Lab 
+➜  Lab cd Lab9 
+➜  Lab9 ls
+ASM-tutorial
+Instrumenting%2BJava%2BBytecode%2Bwith%2BASM.pdf
+Lab9.pptx
+asm-5.0.3
+asm4-guide.pdf
+➜  Lab9 cp asm-5.0.3/lib/all/asm-all-5.0.3.jar ASM-tutorial 
+➜  Lab9 javac -cp asm-all-5.0.3.jar Copy.java
+javac: 找不到文件: Copy.java
+用法: javac <options> <source files>
+-help 用于列出可能的选项
+➜  Lab9 ls
+ASM-tutorial
+Instrumenting%2BJava%2BBytecode%2Bwith%2BASM.pdf
+Lab9.pptx
+asm-5.0.3
+asm4-guide.pdf
+➜  Lab9 cd ASM-
+cd: no such file or directory: ASM-
+➜  Lab9 cd ASM-tutorial 
+➜  ASM-tutorial javac -cp asm-all-5.0.3.jar Copy.java
+➜  ASM-tutorial java -cp .:asm-all-5.0.3.jar Copy Copy.class Copy2.class
+➜  ASM-tutorial javac TestInstrumented.java 
+➜  ASM-tutorial java -cp .:asm-all-5.0.3.jar org.objectweb.asm.util.ASMifier TestInstrumented 
+import java.util.*;
+import org.objectweb.asm.*;
+public class TestInstrumentedDump implements Opcodes {
+
+public static byte[] dump () throws Exception {
+
+ClassWriter cw = new ClassWriter(0);
+FieldVisitor fv;
+MethodVisitor mv;
+AnnotationVisitor av0;
+
+cw.visit(52, ACC_PUBLIC + ACC_SUPER, "TestInstrumented", null, "java/lang/Object", null);
+
+{
+mv = cw.visitMethod(ACC_PUBLIC, "<init>", "()V", null, null);
+mv.visitCode();
+mv.visitVarInsn(ALOAD, 0);
+mv.visitMethodInsn(INVOKESPECIAL, "java/lang/Object", "<init>", "()V", false);
+mv.visitInsn(RETURN);
+mv.visitMaxs(1, 1);
+mv.visitEnd();
+}
+{
+mv = cw.visitMethod(ACC_PUBLIC + ACC_STATIC, "main", "([Ljava/lang/String;)V", null, null);
+mv.visitCode();
+mv.visitFieldInsn(GETSTATIC, "java/lang/System", "err", "Ljava/io/PrintStream;");
+mv.visitLdcInsn("CALL printOne");
+mv.visitMethodInsn(INVOKEVIRTUAL, "java/io/PrintStream", "println", "(Ljava/lang/String;)V", false);
+mv.visitMethodInsn(INVOKESTATIC, "TestInstrumented", "printOne", "()V", false);
+mv.visitFieldInsn(GETSTATIC, "java/lang/System", "err", "Ljava/io/PrintStream;");
+mv.visitLdcInsn("RETURN printOne");
+mv.visitMethodInsn(INVOKEVIRTUAL, "java/io/PrintStream", "println", "(Ljava/lang/String;)V", false);
+mv.visitFieldInsn(GETSTATIC, "java/lang/System", "err", "Ljava/io/PrintStream;");
+mv.visitLdcInsn("CALL printOne");
+mv.visitMethodInsn(INVOKEVIRTUAL, "java/io/PrintStream", "println", "(Ljava/lang/String;)V", false);
+mv.visitMethodInsn(INVOKESTATIC, "TestInstrumented", "printOne", "()V", false);
+mv.visitFieldInsn(GETSTATIC, "java/lang/System", "err", "Ljava/io/PrintStream;");
+mv.visitLdcInsn("RETURN printOne");
+mv.visitMethodInsn(INVOKEVIRTUAL, "java/io/PrintStream", "println", "(Ljava/lang/String;)V", false);
+mv.visitFieldInsn(GETSTATIC, "java/lang/System", "err", "Ljava/io/PrintStream;");
+mv.visitLdcInsn("CALL printTwo");
+mv.visitMethodInsn(INVOKEVIRTUAL, "java/io/PrintStream", "println", "(Ljava/lang/String;)V", false);
+mv.visitMethodInsn(INVOKESTATIC, "TestInstrumented", "printTwo", "()V", false);
+mv.visitFieldInsn(GETSTATIC, "java/lang/System", "err", "Ljava/io/PrintStream;");
+mv.visitLdcInsn("RETURN printTwo");
+mv.visitMethodInsn(INVOKEVIRTUAL, "java/io/PrintStream", "println", "(Ljava/lang/String;)V", false);
+mv.visitInsn(RETURN);
+mv.visitMaxs(2, 1);
+mv.visitEnd();
+}
+{
+mv = cw.visitMethod(ACC_PUBLIC + ACC_STATIC, "printOne", "()V", null, null);
+mv.visitCode();
+mv.visitFieldInsn(GETSTATIC, "java/lang/System", "err", "Ljava/io/PrintStream;");
+mv.visitLdcInsn("CALL println");
+mv.visitMethodInsn(INVOKEVIRTUAL, "java/io/PrintStream", "println", "(Ljava/lang/String;)V", false);
+mv.visitFieldInsn(GETSTATIC, "java/lang/System", "out", "Ljava/io/PrintStream;");
+mv.visitLdcInsn("Hello World");
+mv.visitMethodInsn(INVOKEVIRTUAL, "java/io/PrintStream", "println", "(Ljava/lang/String;)V", false);
+mv.visitFieldInsn(GETSTATIC, "java/lang/System", "err", "Ljava/io/PrintStream;");
+mv.visitLdcInsn("RETURN println");
+mv.visitMethodInsn(INVOKEVIRTUAL, "java/io/PrintStream", "println", "(Ljava/lang/String;)V", false);
+mv.visitInsn(RETURN);
+mv.visitMaxs(2, 0);
+mv.visitEnd();
+}
+{
+mv = cw.visitMethod(ACC_PUBLIC + ACC_STATIC, "printTwo", "()V", null, null);
+mv.visitCode();
+mv.visitFieldInsn(GETSTATIC, "java/lang/System", "err", "Ljava/io/PrintStream;");
+mv.visitLdcInsn("CALL printOne");
+mv.visitMethodInsn(INVOKEVIRTUAL, "java/io/PrintStream", "println", "(Ljava/lang/String;)V", false);
+mv.visitMethodInsn(INVOKESTATIC, "TestInstrumented", "printOne", "()V", false);
+mv.visitFieldInsn(GETSTATIC, "java/lang/System", "err", "Ljava/io/PrintStream;");
+mv.visitLdcInsn("RETURN printOne");
+mv.visitMethodInsn(INVOKEVIRTUAL, "java/io/PrintStream", "println", "(Ljava/lang/String;)V", false);
+mv.visitFieldInsn(GETSTATIC, "java/lang/System", "err", "Ljava/io/PrintStream;");
+mv.visitLdcInsn("CALL printOne");
+mv.visitMethodInsn(INVOKEVIRTUAL, "java/io/PrintStream", "println", "(Ljava/lang/String;)V", false);
+mv.visitMethodInsn(INVOKESTATIC, "TestInstrumented", "printOne", "()V", false);
+mv.visitFieldInsn(GETSTATIC, "java/lang/System", "err", "Ljava/io/PrintStream;");
+mv.visitLdcInsn("RETURN printOne");
+mv.visitMethodInsn(INVOKEVIRTUAL, "java/io/PrintStream", "println", "(Ljava/lang/String;)V", false);
+mv.visitInsn(RETURN);
+mv.visitMaxs(2, 0);
+mv.visitEnd();
+}
+cw.visitEnd();
+
+return cw.toByteArray();
+}
+}
+➜  ASM-tutorial javac -cp asm-all-5.0.3.jar Instrumenter.java 
+➜  ASM-tutorial javac Test.java 
+➜  ASM-tutorial cp Test.class Test.class.bak
+➜  ASM-tutorial java -cp .:asm-all-5.0.3.jar Instrumenter Test.class.bak Test.class
+➜  ASM-tutorial java Test
+CALL printOne
+CALL println
+Hello World
+RETURN println
+RETURN printOne
+CALL printOne
+CALL println
+Hello World
+RETURN println
+RETURN printOne
+CALL printTwo
+CALL printOne
+CALL println
+Hello World
+RETURN println
+RETURN printOne
+CALL printOne
+CALL println
+Hello World
+RETURN println
+RETURN printOne
+RETURN printTwo
+➜  ASM-tutorial 
