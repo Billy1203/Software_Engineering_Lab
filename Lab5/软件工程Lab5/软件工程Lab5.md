@@ -5,7 +5,7 @@
 -	Run the test described above and verify that you get the same output.
 -	Add a test in which an assertion fails (hint: use assertFalse and your sunny Philadelphia code). Describe (very briefly) what has changed in the test results.
 
-![exercise1-1](./1.png)
+![exercise1-1](1.png)
 
 -	Choose one other static assertion method from the jUnit Assert API and call it (this will be useful). Give the test that you wrote and describe the results.
 
@@ -35,7 +35,7 @@
     }
 ```
 
-![exercise1-2](/Users/xueyiheng/Desktop/软件工程/Lab/Lab5/软件工程Lab5/2.png)
+![exercise1-2](2.png)
 >测试文件读取java中return的信息之后，通过`assertEquals`进行比较，不符合要求的会failed，窗口会提示其所期待的信息。
 
 
@@ -54,7 +54,7 @@
      }
 ```
 
-![exercise2-2](/Users/xueyiheng/Desktop/软件工程/Lab/Lab5/软件工程Lab5/4.png)
+![exercise2-2](4.png)
 >通过`testClear`判断是否为空，通过`assertTrue`返回值来决定test是否通过。
 
 -	Add a test that uses the testArray and tests the "contains" method by verifying that it returns true when supplied a value that exists in the array. Copy your test into your document for submission.
@@ -66,7 +66,7 @@
      }
 ```
 
-![exercise2-3](/Users/xueyiheng/Desktop/软件工程/Lab/Lab5/软件工程Lab5/5.png)
+![exercise2-3](5.png)
 
 -	Add a test that uses the testArray and tests the "contains" method by verifying that it returns false when supplied a value that does not exist in the array. Copy your test into your document for submission.
 
@@ -77,7 +77,7 @@
      }
 ```
 
-![exercise2-4](/Users/xueyiheng/Desktop/软件工程/Lab/Lab5/软件工程Lab5/6.png)
+![exercise2-4](6.png)
      
 -	Add a test that uses the testArray and tests the "get" method by verifying that it returns the correct value for a given index. Copy your test into your document for submission.
 
@@ -88,7 +88,7 @@
      }
 ```
 
-![exercise2-5](/Users/xueyiheng/Desktop/软件工程/Lab/Lab5/软件工程Lab5/7.png)
+![exercise2-5](7.png)
      
 
 ##Exercise 3
@@ -101,7 +101,7 @@
     }
 ```
 
-![exercise3-1](/Users/xueyiheng/Desktop/软件工程/Lab/Lab5/软件工程Lab5/8.png)
+![exercise3-1](8.png)
     
 -	Write a minimal test suite that provides full branch coverage.
 
@@ -118,7 +118,7 @@
     }
 ```
     
-![exercise3-2](/Users/xueyiheng/Desktop/软件工程/Lab/Lab5/软件工程Lab5/9.png)
+![exercise3-2](9.png)
     
 -	Write a minimal test suite that provides full path coverage. If any paths are not possible to test, describe why.
 
@@ -135,7 +135,7 @@
     }
 ```
 
-![exercise3-3](/Users/xueyiheng/Desktop/软件工程/Lab/Lab5/软件工程Lab5/10.png)    
+![exercise3-3](10.png)    
 >时间格式必须是`hh/mm/ss`才可以通过，格式如`00001`会失败。
 
 ##Exercise 4
@@ -157,4 +157,4 @@
         return true;
     }
 ```
-![exercise4-1](/Users/xueyiheng/Desktop/软件工程/Lab/Lab5/软件工程Lab5/11.png)    
+![exercise4-1](11.png)    
