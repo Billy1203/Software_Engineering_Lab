@@ -5,7 +5,7 @@
 -	Run the test described above and verify that you get the same output.
 -	Add a test in which an assertion fails (hint: use assertFalse and your sunny Philadelphia code). Describe (very briefly) what has changed in the test results.
 
-![exercise1-1](/Users/xueyiheng/Desktop/软件工程/Lab/Lab5/软件工程Lab5/1.png)
+![exercise1-1](./1.png)
 
 -	Choose one other static assertion method from the jUnit Assert API and call it (this will be useful). Give the test that you wrote and describe the results.
 
